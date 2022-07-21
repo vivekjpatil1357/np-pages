@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#brandname {
+    color: rgb(0, 0, 0);
+    font: 1.1em sans-serif;
+}
+span#logo{
+    font-size: 1.3em;
+    color: white;
+    background-color: rgb(17, 106, 185);
+    font-style: oblique;
+    margin: 2px;
+    padding: 0px 8px;
+    border-radius: 20px;
+}
+.navbar ul {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1.7fr 1fr 1.3fr 1.3fr 1.3fr 1fr ;
+    text-align: center;
+    align-items: center;
+    border: 1px solid rgb(165, 165, 165);
+    height: 50px;
+    list-style: none;
+}
+
+ul .navItem:hover {
+    background: rgb(0 0 0 / 8%);
+    cursor: pointer;
+}
+
+li h1:hover {
+    background: white;
+    cursor: pointer;
+
+}
+
+ .btn{
+    display: flex;
+    justify-content: right;
+} 
+input[type='button']{
+    padding: 3px;
+    margin:1% 2%;;
+}
+input[type='button']:hover{
+    cursor: pointer;
+    background-color: rgb(78, 242, 18);
+    transition: 0.5s all;
+    transform:scale(1.1);
+} 
+    
+    
+
+
+/* section for photo head and search area/ */
+.main {
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+}
+
+.main::before {
+    content: '';
+    width: 96%;
+    margin: 49px 35px;
+    height: 50%;
+    background: url(office-desk-yellow-table-background-with-laptop-computer-coffee-cup_146377-777.webp) center center/cover;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.material {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 53%;
+    height: auto;
+    margin: 6%;
+}
+
+.head {
+    text-align: center;
+    font:bolder ;
+    font-size: 3em;
+}
+
+input[type='search'] {
+    height: 32px;
+    width: 80%;
+    font-size: 17px;
+    margin: 40px 0px 19px 0px;
+    padding: 12px;
+    border: 2px solid black ;
+    border-radius: 8px;
+}
+p {
+    text-align: center;
+}
+
+/* section of choices */
+.choices{
+    margin: 3%;
+    /* border: 2px solid ; */
+    box-sizing: border-box;
+}
+.head2{
+    font-size: 2rem;
+    text-align: center;
+    margin: 30px auto;
+}
+.choices ul{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    width: 100%;
+    height: 326px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);  
+    grid-gap: 2%;
+    /* margin-top: 23px; */
+   scrollbar-color: red;
+}
+.tempImage
+{
+    width: 160px;
+    margin-top: 12px;
+}
+
+
+
+
+
